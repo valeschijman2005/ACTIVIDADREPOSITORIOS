@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APLICACIONVETERINARIA", "APLICACIONVETERINARIA\APLICACIONVETERINARIA.csproj", "{3D29FE32-B79F-4165-870F-B97CF715CA59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87897B0A-D714-4062-AF78-4D2B298E6FFD} = {87897B0A-D714-4062-AF78-4D2B298E6FFD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOGICA", "LOGICA\LOGICA.csproj", "{87897B0A-D714-4062-AF78-4D2B298E6FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D29FE32-B79F-4165-870F-B97CF715CA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D29FE32-B79F-4165-870F-B97CF715CA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D29FE32-B79F-4165-870F-B97CF715CA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D29FE32-B79F-4165-870F-B97CF715CA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87897B0A-D714-4062-AF78-4D2B298E6FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87897B0A-D714-4062-AF78-4D2B298E6FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87897B0A-D714-4062-AF78-4D2B298E6FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87897B0A-D714-4062-AF78-4D2B298E6FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BD65E13-9912-4D47-891F-4942DEAE0266}
+	EndGlobalSection
+EndGlobal
